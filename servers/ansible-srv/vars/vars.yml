@@ -1,0 +1,20 @@
+# Non-sensitive data
+mysql_user: mmuser
+mysql_database: mattermost
+team_name: devops
+admin_name: admin
+admin_email: admin@example.com
+user_name: user
+mysql_root_pass: adbms
+mysql_password: 12345
+database_config: '        "DataSource": "mmuser:12345@tcp(127.0.0.1:3306)/mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",'
+SiteURL: 'http://192.168.33.100'
+FeedbackName: 'No-Reply'
+FeedbackEmail: 'rayandasoriya@zoho.com'
+SMTPServer: 'smtp.zoho.com'
+SMTPPort: '465'
+ConnectionSecurity: 'TLS'
+
+# Sensitive data
+SMTPUsername: 
+SMTPPassword: 
